@@ -9,7 +9,10 @@ const app = express();
 // -------- Core Middlewares --------
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://your-frontend.vercel.app"],
+    origin: [
+      "http://localhost:5173",
+      "https://blog-frontend-rust-mu.vercel.app/",
+    ],
     credentials: true,
   }),
 );
