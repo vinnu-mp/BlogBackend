@@ -1,0 +1,42 @@
+[
+  {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5NzFlNTMyYTM5ZjAwYjA4NmQ0MGFlZCIsImlhdCI6MTc2OTE1NjcxOSwiZXhwIjoxNzY5NzYxNTE5fQ.qwDgSDV6qBK4gJT2Q_u62ddVJzMnjDW38GCTsAGyuC8",
+    "user": {
+      "id": "6971e532a39f00b086d40aed",
+      "name": "Vinnu",
+      "email": "vinnu@test.com"
+    }
+  },
+
+  {
+    "url": "https://res.cloudinary.com/dpwvw4jq9/image/upload/v1769319811/megablog/c60nqhohvsxfb0zp0brl.jpg",
+    "public_id": "megablog/c60nqhohvsxfb0zp0brl"
+  },
+
+  {
+    "------Below are-----": "The body of req of /api/posts POST request and the response from the server"
+  },
+
+  {
+    "title": "My first post",
+    "content": "This is my first blog post.",
+    "featuredImage": "https://res.cloudinary.com/dpwvw4jq9/image/upload/v1769319811/megablog/c60nqhohvsxfb0zp0brl.jpg",
+    "featuredImageId": "megablog/c60nqhohvsxfb0zp0brl",
+    "status": "published"
+  },
+
+  {
+    "post": {
+      "title": "My first post",
+      "content": "This is my first blog post.",
+      "featuredImage": "https://res.cloudinary.com/dpwvw4jq9/image/upload/v1769319811/megablog/c60nqhohvsxfb0zp0brl.jpg",
+      "featuredImageId": "megablog/c60nqhohvsxfb0zp0brl",
+      "status": "published",
+      "userId": "6971e532a39f00b086d40aed",
+      "_id": "697af088206dad22c75621fb",
+      "createdAt": "2026-01-29T05:30:48.268Z",
+      "updatedAt": "2026-01-29T05:30:48.268Z",
+      "__v": 0
+    }
+  }
+]
