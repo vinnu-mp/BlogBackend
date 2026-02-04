@@ -11,11 +11,15 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://blog-frontend-rust-mu.vercel.app/",
+      "https://blog-frontend-rust-mu.vercel.app",
     ],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
   }),
 );
+app.options("*", cors());
+
 app.use(express.json()); // parse JSON bodies
 
 // -------- Health Check Route --------
