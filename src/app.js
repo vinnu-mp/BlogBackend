@@ -10,8 +10,8 @@ const app = express();
 app.use(
   cors({
     origin: [
+      "https://blog-frontend-git-main-vinnumps-projects.vercel.app",
       "http://localhost:5173",
-      "https://blog-frontend-rust-mu.vercel.app",
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
